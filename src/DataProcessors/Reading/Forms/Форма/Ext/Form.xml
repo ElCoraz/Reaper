@@ -1,0 +1,481 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаNext" id="31">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Next</CommandName>
+				<ExtendedTooltip name="ФормаNextРасширеннаяПодсказка" id="32"/>
+			</Button>
+			<Button name="ФормаClear" id="42">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Clear</CommandName>
+				<ExtendedTooltip name="ФормаClearРасширеннаяПодсказка" id="43"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="10">
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="11"/>
+			<ChildItems>
+				<InputField name="EntryPoint" id="1">
+					<DataPath>Объект.EntryPoint</DataPath>
+					<Enabled>false</Enabled>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="EntryPointКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="EntryPointРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="CurrentPoin" id="4">
+					<DataPath>Объект.CurrentPoin</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="CurrentPoinКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="CurrentPoinРасширеннаяПодсказка" id="6"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа2" id="47">
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="48"/>
+			<ChildItems>
+				<LabelDecoration name="Декорация1" id="49">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Процедуры/Функции:</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="Декорация1КонтекстноеМеню" id="50"/>
+					<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="51"/>
+				</LabelDecoration>
+				<LabelDecoration name="ПФ" id="52">
+					<ContextMenu name="ПФКонтекстноеМеню" id="53"/>
+					<ExtendedTooltip name="ПФРасширеннаяПодсказка" id="54"/>
+				</LabelDecoration>
+				<InputField name="ПроцедурыФункции" id="44">
+					<DataPath>ПроцедурыФункции</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<ClearButton>true</ClearButton>
+					<ListChoiceMode>true</ListChoiceMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ПроцедурыФункцииКонтекстноеМеню" id="45"/>
+					<ExtendedTooltip name="ПроцедурыФункцииРасширеннаяПодсказка" id="46"/>
+					<Events>
+						<Event name="OnChange">ПроцедурыФункцииПриИзменении</Event>
+						<Event name="Clearing">ПроцедурыФункцииОчистка</Event>
+						<Event name="ChoiceProcessing">ПроцедурыФункцииОбработкаВыбора</Event>
+					</Events>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="Text" id="55">
+			<DataPath>Объект.Text</DataPath>
+			<TitleLocation>None</TitleLocation>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<MultiLine>true</MultiLine>
+			<ClearButton>true</ClearButton>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="TextКонтекстноеМеню" id="56"/>
+			<ExtendedTooltip name="TextРасширеннаяПодсказка" id="57"/>
+		</InputField>
+		<Table name="Code" id="12">
+			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<EnableStartDrag>true</EnableStartDrag>
+			<DataPath>Code</DataPath>
+			<RowPictureDataPath>Code.DefaultPicture</RowPictureDataPath>
+			<CommandSet>
+				<ExcludedCommand>CancelSearch</ExcludedCommand>
+				<ExcludedCommand>Change</ExcludedCommand>
+				<ExcludedCommand>ChangeHistory</ExcludedCommand>
+				<ExcludedCommand>Copy</ExcludedCommand>
+				<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+				<ExcludedCommand>Create</ExcludedCommand>
+				<ExcludedCommand>Delete</ExcludedCommand>
+				<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
+				<ExcludedCommand>Find</ExcludedCommand>
+				<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
+				<ExcludedCommand>GetURL</ExcludedCommand>
+				<ExcludedCommand>ListSettings</ExcludedCommand>
+				<ExcludedCommand>LoadDynamicListSettings</ExcludedCommand>
+				<ExcludedCommand>OutputList</ExcludedCommand>
+				<ExcludedCommand>Refresh</ExcludedCommand>
+				<ExcludedCommand>SaveDynamicListSettings</ExcludedCommand>
+				<ExcludedCommand>SearchEverywhere</ExcludedCommand>
+				<ExcludedCommand>SearchHistory</ExcludedCommand>
+				<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
+			</CommandSet>
+			<SearchStringLocation>None</SearchStringLocation>
+			<ViewStatusLocation>None</ViewStatusLocation>
+			<SearchControlLocation>None</SearchControlLocation>
+			<AutoRefresh>false</AutoRefresh>
+			<AutoRefreshPeriod>60</AutoRefreshPeriod>
+			<Period>
+				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+				<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+				<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+			</Period>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<RestoreCurrentRow>false</RestoreCurrentRow>
+			<TopLevelParent xsi:nil="true"/>
+			<ShowRoot>true</ShowRoot>
+			<AllowRootChoice>false</AllowRootChoice>
+			<UpdateOnDataChange>Auto</UpdateOnDataChange>
+			<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+			<ContextMenu name="CodeКонтекстноеМеню" id="13"/>
+			<AutoCommandBar name="CodeКоманднаяПанель" id="14">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="CodeРасширеннаяПодсказка" id="15"/>
+			<SearchStringAddition name="CodeСтрокаПоиска" id="16">
+				<AdditionSource>
+					<Item>Code</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="CodeСтрокаПоискаКонтекстноеМеню" id="17"/>
+				<ExtendedTooltip name="CodeСтрокаПоискаРасширеннаяПодсказка" id="18"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="CodeСостояниеПросмотра" id="19">
+				<AdditionSource>
+					<Item>Code</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="CodeСостояниеПросмотраКонтекстноеМеню" id="20"/>
+				<ExtendedTooltip name="CodeСостояниеПросмотраРасширеннаяПодсказка" id="21"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="CodeУправлениеПоиском" id="22">
+				<AdditionSource>
+					<Item>Code</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="CodeУправлениеПоискомКонтекстноеМеню" id="23"/>
+				<ExtendedTooltip name="CodeУправлениеПоискомРасширеннаяПодсказка" id="24"/>
+			</SearchControlAddition>
+			<Events>
+				<Event name="Selection">CodeВыбор</Event>
+			</Events>
+			<ChildItems>
+				<LabelField name="CodeСтрока" id="33">
+					<DataPath>Code.Строка</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content> </v8:content>
+						</v8:item>
+					</Title>
+					<Width>2</Width>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<ContextMenu name="CodeСтрокаКонтекстноеМеню" id="34"/>
+					<ExtendedTooltip name="CodeСтрокаРасширеннаяПодсказка" id="35"/>
+				</LabelField>
+				<LabelField name="CodeopCode" id="25">
+					<DataPath>Code.opCode</DataPath>
+					<Width>2</Width>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<ContextMenu name="CodeopCodeКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="CodeopCodeРасширеннаяПодсказка" id="27"/>
+				</LabelField>
+				<LabelField name="CodeOperand" id="28">
+					<DataPath>Code.Operand</DataPath>
+					<Width>2</Width>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<Format>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧЦ=20; ЧН=0</v8:content>
+						</v8:item>
+					</Format>
+					<ContextMenu name="CodeOperandКонтекстноеМеню" id="29"/>
+					<ExtendedTooltip name="CodeOperandРасширеннаяПодсказка" id="30"/>
+				</LabelField>
+				<LabelField name="CodeАдрес" id="39">
+					<DataPath>Code.Адрес</DataPath>
+					<ContextMenu name="CodeАдресКонтекстноеМеню" id="40"/>
+					<ExtendedTooltip name="CodeАдресРасширеннаяПодсказка" id="41"/>
+				</LabelField>
+				<LabelField name="CodeОписание" id="36">
+					<DataPath>Code.Описание</DataPath>
+					<ContextMenu name="CodeОписаниеКонтекстноеМеню" id="37"/>
+					<ExtendedTooltip name="CodeОписаниеРасширеннаяПодсказка" id="38"/>
+				</LabelField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.Reading</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="Code" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Code</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	Code.opCode КАК opCode,
+	Code.Operand КАК Operand,
+	Code.Строка КАК Строка,
+	ВЫРАЗИТЬ("" КАК СТРОКА(150)) КАК Описание,
+	Code.Адрес КАК Адрес
+ИЗ
+	РегистрСведений.Code КАК Code</QueryText>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>opCode</dcssch:dataPath>
+					<dcssch:field>opCode</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Operand</dcssch:dataPath>
+					<dcssch:field>Operand</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Строка</dcssch:dataPath>
+					<dcssch:field>Строка</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>break</dcssch:dataPath>
+					<dcssch:field>break</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Адрес</dcssch:dataPath>
+					<dcssch:field>Адрес</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Описание</dcssch:dataPath>
+					<dcssch:field>Описание</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Описание</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<MainTable>InformationRegister.Code</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>Строка</dcsset:field>
+							<dcsset:orderType>Asc</dcsset:orderType>
+						</dcsset:item>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="ПроцедурыФункции" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Процедуры/функции</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>CodeСтрока</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>CodeopCode</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>CodeOperand</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>CodeАдрес</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>CodeОписание</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Code.opCode</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:decimal">39</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#FF0000</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>CodeСтрока</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>CodeopCode</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>CodeOperand</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>CodeАдрес</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>CodeОписание</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Code.opCode</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:decimal">40</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#FF0000</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>CodeСтрока</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>CodeopCode</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>CodeOperand</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>CodeАдрес</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>CodeОписание</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Code.opCode</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:decimal">41</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#FF0000</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>CodeСтрока</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>CodeopCode</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>CodeOperand</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>CodeАдрес</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>CodeОписание</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Code.opCode</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:decimal">42</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#FF0000</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+		</ConditionalAppearance>
+	</Attributes>
+	<Commands>
+		<Command name="Next" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Next</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Next</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.MoveDown</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>Next</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="Clear" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Clear</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Clear</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Stop</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>Clear</Action>
+			<Representation>Picture</Representation>
+		</Command>
+	</Commands>
+</Form>

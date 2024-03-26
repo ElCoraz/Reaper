@@ -139,6 +139,7 @@
 				<InputField name="ФайлыText" id="32">
 					<DataPath>Объект.Файлы.Text</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<MultiLine>true</MultiLine>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="ФайлыTextКонтекстноеМеню" id="33"/>
 					<ExtendedTooltip name="ФайлыTextРасширеннаяПодсказка" id="34"/>

@@ -5,6 +5,12 @@
 			<Button name="ФормаNext" id="31">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.Next</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Дальше</v8:content>
+					</v8:item>
+				</Title>
 				<ExtendedTooltip name="ФормаNextРасширеннаяПодсказка" id="32"/>
 			</Button>
 			<Button name="ФормаClear" id="42">
@@ -18,6 +24,32 @@
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
+		<UsualGroup name="Группа3" id="58">
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="59"/>
+			<ChildItems>
+				<InputField name="Проект" id="60">
+					<DataPath>Объект.Проект</DataPath>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ПроектКонтекстноеМеню" id="61"/>
+					<ExtendedTooltip name="ПроектРасширеннаяПодсказка" id="62"/>
+					<Events>
+						<Event name="OnChange">ПроектПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="Файл" id="63">
+					<DataPath>Объект.Файл</DataPath>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<ListChoiceMode>true</ListChoiceMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ФайлКонтекстноеМеню" id="64"/>
+					<ExtendedTooltip name="ФайлРасширеннаяПодсказка" id="65"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
 		<UsualGroup name="Группа1" id="10">
 			<Group>AlwaysHorizontal</Group>
 			<Representation>None</Representation>
@@ -27,6 +59,12 @@
 				<InputField name="EntryPoint" id="1">
 					<DataPath>Объект.EntryPoint</DataPath>
 					<Enabled>false</Enabled>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Точка входа</v8:content>
+						</v8:item>
+					</Title>
 					<EditMode>EnterOnInput</EditMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="EntryPointКонтекстноеМеню" id="2"/>
@@ -34,6 +72,12 @@
 				</InputField>
 				<InputField name="CurrentPoin" id="4">
 					<DataPath>Объект.CurrentPoin</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Текущая строка</v8:content>
+						</v8:item>
+					</Title>
 					<EditMode>EnterOnInput</EditMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="CurrentPoinКонтекстноеМеню" id="5"/>

@@ -169,6 +169,7 @@
 				</LabelField>
 				<InputField name="ФайлыНаименование" id="23">
 					<DataPath>Объект.Файлы.Наименование</DataPath>
+					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="ФайлыНаименованиеКонтекстноеМеню" id="24"/>
@@ -176,6 +177,7 @@
 				</InputField>
 				<InputField name="ФайлыПуть" id="26">
 					<DataPath>Объект.Файлы.Путь</DataPath>
+					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="ФайлыПутьКонтекстноеМеню" id="27"/>
@@ -184,17 +186,26 @@
 				<InputField name="ФайлыCode" id="29">
 					<DataPath>Объект.Файлы.Code</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<ChoiceButton>true</ChoiceButton>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<TextEdit>false</TextEdit>
 					<ContextMenu name="ФайлыCodeКонтекстноеМеню" id="30"/>
 					<ExtendedTooltip name="ФайлыCodeРасширеннаяПодсказка" id="31"/>
+					<Events>
+						<Event name="StartChoice">ФайлыCodeНачалоВыбора</Event>
+					</Events>
 				</InputField>
 				<InputField name="ФайлыText" id="32">
 					<DataPath>Объект.Файлы.Text</DataPath>
 					<EditMode>EnterOnInput</EditMode>
-					<MultiLine>true</MultiLine>
+					<ChoiceButton>true</ChoiceButton>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<TextEdit>false</TextEdit>
 					<ContextMenu name="ФайлыTextКонтекстноеМеню" id="33"/>
 					<ExtendedTooltip name="ФайлыTextРасширеннаяПодсказка" id="34"/>
+					<Events>
+						<Event name="StartChoice">ФайлыTextНачалоВыбора</Event>
+					</Events>
 				</InputField>
 			</ChildItems>
 		</Table>

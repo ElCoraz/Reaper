@@ -41,6 +41,7 @@
 				<InputField name="Наименование" id="4">
 					<DataPath>Объект.Description</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoMaxWidth>false</AutoMaxWidth>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
 					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
@@ -49,9 +50,47 @@
 					<DataPath>Объект.Code</DataPath>
 					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoMaxWidth>false</AutoMaxWidth>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="КодКонтекстноеМеню" id="2"/>
 					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаПрефиксы" id="46">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Префиксы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа префиксы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаПрефиксыРасширеннаяПодсказка" id="47"/>
+			<ChildItems>
+				<InputField name="ПрефиксПеременных" id="48">
+					<DataPath>Объект.ПрефиксПеременных</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ПрефиксПеременныхКонтекстноеМеню" id="49"/>
+					<ExtendedTooltip name="ПрефиксПеременныхРасширеннаяПодсказка" id="50"/>
+				</InputField>
+				<InputField name="ПрефиксМеток" id="51">
+					<DataPath>Объект.ПрефиксМеток</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ПрефиксМетокКонтекстноеМеню" id="52"/>
+					<ExtendedTooltip name="ПрефиксМетокРасширеннаяПодсказка" id="53"/>
+				</InputField>
+				<InputField name="ПрефиксПроцедурФункций" id="54">
+					<DataPath>Объект.ПрефиксПроцедурФункций</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ПрефиксПроцедурФункцийКонтекстноеМеню" id="55"/>
+					<ExtendedTooltip name="ПрефиксПроцедурФункцийРасширеннаяПодсказка" id="56"/>
 				</InputField>
 			</ChildItems>
 		</UsualGroup>
@@ -62,6 +101,7 @@
 			<ChildItems>
 				<InputField name="Расширение" id="43">
 					<DataPath>Объект.Расширение</DataPath>
+					<AutoMaxWidth>false</AutoMaxWidth>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="РасширениеКонтекстноеМеню" id="44"/>
 					<ExtendedTooltip name="РасширениеРасширеннаяПодсказка" id="45"/>

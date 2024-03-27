@@ -1,19 +1,22 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.17">
 	<ConfigVersions>
-		<Metadata name="Catalog.Проекты" id="308c9e8c-b1f3-4e15-a9a0-53d02c9f99b0" configVersion="9363c3623e03584bb0b416d88f9e18a100000000">
+		<Metadata name="Catalog.Проекты" id="308c9e8c-b1f3-4e15-a9a0-53d02c9f99b0" configVersion="2d6264089699854dbd23849a37522c8600000000">
 			<Metadata name="Catalog.Проекты.TabularSection.Файлы.Attribute.Text" id="17bbc9fa-547a-4894-8b9f-ece55279411c"/>
 			<Metadata name="Catalog.Проекты.TabularSection.Файлы.Attribute.Наименование" id="2f58ed6f-9039-4379-82e2-548b674fdfb6"/>
 			<Metadata name="Catalog.Проекты.Attribute.Файл" id="31c5f9dd-c812-45d8-a6be-e7766a30fa8c"/>
 			<Metadata name="Catalog.Проекты.Attribute.Расширение" id="93d81efe-34a6-44ba-ada1-a0794b89f279"/>
 			<Metadata name="Catalog.Проекты.TabularSection.Файлы.Attribute.Путь" id="b33abea4-1ab6-4785-9141-be1ae78644a7"/>
+			<Metadata name="Catalog.Проекты.Attribute.ПрефиксПроцедурФункций" id="be328cd6-ece5-475a-81db-3f703670d417"/>
 			<Metadata name="Catalog.Проекты.TabularSection.Файлы" id="c93196d8-e081-4e4f-9292-f0e5ea01bdd4"/>
+			<Metadata name="Catalog.Проекты.Attribute.ПрефиксМеток" id="cfa2d24c-d396-488a-b14d-5e7374dd95b6"/>
 			<Metadata name="Catalog.Проекты.TabularSection.Файлы.Attribute.Code" id="d690a5ed-095c-47da-9a05-40481ee52e6b"/>
+			<Metadata name="Catalog.Проекты.Attribute.ПрефиксПеременных" id="f25183fc-ee83-48a9-8daa-222be50fb447"/>
 		</Metadata>
 		<Metadata name="Catalog.Проекты.Form.ФормаСписка" id="78e71381-1a7b-48df-8974-60a50b7d84d6" configVersion="44e8d1e3593c3b4481902e6b45a1e28400000000"/>
 		<Metadata name="Catalog.Проекты.Form.ФормаСписка.Form" id="78e71381-1a7b-48df-8974-60a50b7d84d6.0" configVersion="c80908d46dcac5468ec50047fd49133300000000"/>
-		<Metadata name="Catalog.Проекты.Form.ФормаЭлемента" id="f503da4a-0c4d-4431-8059-e3929d48b104" configVersion="8980d52c408824498f527bcea5dd708800000000"/>
-		<Metadata name="Catalog.Проекты.Form.ФормаЭлемента.Form" id="f503da4a-0c4d-4431-8059-e3929d48b104.0" configVersion="5fef20eef51e7f4e97fbfe83cd60ccda00000000"/>
+		<Metadata name="Catalog.Проекты.Form.ФормаЭлемента" id="f503da4a-0c4d-4431-8059-e3929d48b104" configVersion="c9d56478be561a419376be50ec13846900000000"/>
+		<Metadata name="Catalog.Проекты.Form.ФормаЭлемента.Form" id="f503da4a-0c4d-4431-8059-e3929d48b104.0" configVersion="6e7b7a6eec31bc4395b22fff7ee960d700000000"/>
 		<Metadata name="Catalog.Проекты.ObjectModule" id="308c9e8c-b1f3-4e15-a9a0-53d02c9f99b0.0" configVersion="55c0d12716701c4b85724a3e7068441700000000"/>
 		<Metadata name="CommonCommand.ОпКоды" id="c4e586ca-9b08-4b0a-9254-358581295cf6" configVersion="cb5da6268265b344bf9840f1a675f9f400000000"/>
 		<Metadata name="CommonCommand.ОпКоды.CommandModule" id="c4e586ca-9b08-4b0a-9254-358581295cf6.2" configVersion="b726bd8653f0184f9cc7dde841f7a26a00000000"/>

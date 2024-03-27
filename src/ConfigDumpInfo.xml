@@ -15,8 +15,8 @@
 		</Metadata>
 		<Metadata name="Catalog.Проекты.Form.ФормаСписка" id="78e71381-1a7b-48df-8974-60a50b7d84d6" configVersion="44e8d1e3593c3b4481902e6b45a1e28400000000"/>
 		<Metadata name="Catalog.Проекты.Form.ФормаСписка.Form" id="78e71381-1a7b-48df-8974-60a50b7d84d6.0" configVersion="c80908d46dcac5468ec50047fd49133300000000"/>
-		<Metadata name="Catalog.Проекты.Form.ФормаЭлемента" id="f503da4a-0c4d-4431-8059-e3929d48b104" configVersion="c9d56478be561a419376be50ec13846900000000"/>
-		<Metadata name="Catalog.Проекты.Form.ФормаЭлемента.Form" id="f503da4a-0c4d-4431-8059-e3929d48b104.0" configVersion="6e7b7a6eec31bc4395b22fff7ee960d700000000"/>
+		<Metadata name="Catalog.Проекты.Form.ФормаЭлемента" id="f503da4a-0c4d-4431-8059-e3929d48b104" configVersion="1e0994f01b693a4cb237e19481585d3f00000000"/>
+		<Metadata name="Catalog.Проекты.Form.ФормаЭлемента.Form" id="f503da4a-0c4d-4431-8059-e3929d48b104.0" configVersion="562430d885a39c49b91656fc87df83ef00000000"/>
 		<Metadata name="Catalog.Проекты.ObjectModule" id="308c9e8c-b1f3-4e15-a9a0-53d02c9f99b0.0" configVersion="55c0d12716701c4b85724a3e7068441700000000"/>
 		<Metadata name="CommonCommand.ОпКоды" id="c4e586ca-9b08-4b0a-9254-358581295cf6" configVersion="cb5da6268265b344bf9840f1a675f9f400000000"/>
 		<Metadata name="CommonCommand.ОпКоды.CommandModule" id="c4e586ca-9b08-4b0a-9254-358581295cf6.2" configVersion="b726bd8653f0184f9cc7dde841f7a26a00000000"/>

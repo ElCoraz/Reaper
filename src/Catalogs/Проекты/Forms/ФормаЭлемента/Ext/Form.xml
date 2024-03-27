@@ -94,10 +94,22 @@
 				</InputField>
 			</ChildItems>
 		</UsualGroup>
-		<UsualGroup name="Группа1" id="41">
+		<UsualGroup name="ГруппаРасширение" id="41">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Расширение</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа расширение</v8:content>
+				</v8:item>
+			</ToolTip>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="42"/>
+			<ExtendedTooltip name="ГруппаРасширениеРасширеннаяПодсказка" id="42"/>
 			<ChildItems>
 				<InputField name="Расширение" id="43">
 					<DataPath>Объект.Расширение</DataPath>

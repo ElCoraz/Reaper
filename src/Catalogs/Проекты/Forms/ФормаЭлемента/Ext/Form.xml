@@ -70,24 +70,45 @@
 					<v8:content>Группа префиксы</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Representation>None</Representation>
-			<ShowTitle>false</ShowTitle>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>StrongSeparation</Representation>
 			<ExtendedTooltip name="ГруппаПрефиксыРасширеннаяПодсказка" id="47"/>
 			<ChildItems>
 				<InputField name="ПрефиксПеременных" id="48">
 					<DataPath>Объект.ПрефиксПеременных</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Переменные</v8:content>
+						</v8:item>
+					</Title>
+					<AutoMaxWidth>false</AutoMaxWidth>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="ПрефиксПеременныхКонтекстноеМеню" id="49"/>
 					<ExtendedTooltip name="ПрефиксПеременныхРасширеннаяПодсказка" id="50"/>
 				</InputField>
 				<InputField name="ПрефиксМеток" id="51">
 					<DataPath>Объект.ПрефиксМеток</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Метки</v8:content>
+						</v8:item>
+					</Title>
+					<AutoMaxWidth>false</AutoMaxWidth>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="ПрефиксМетокКонтекстноеМеню" id="52"/>
 					<ExtendedTooltip name="ПрефиксМетокРасширеннаяПодсказка" id="53"/>
 				</InputField>
 				<InputField name="ПрефиксПроцедурФункций" id="54">
 					<DataPath>Объект.ПрефиксПроцедурФункций</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Процедуры/Функции</v8:content>
+						</v8:item>
+					</Title>
+					<AutoMaxWidth>false</AutoMaxWidth>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="ПрефиксПроцедурФункцийКонтекстноеМеню" id="55"/>
 					<ExtendedTooltip name="ПрефиксПроцедурФункцийРасширеннаяПодсказка" id="56"/>
@@ -183,6 +204,14 @@
 					<ContextMenu name="ФайлыПутьКонтекстноеМеню" id="27"/>
 					<ExtendedTooltip name="ФайлыПутьРасширеннаяПодсказка" id="28"/>
 				</InputField>
+				<InputField name="ФайлыТочкаВхода" id="57">
+					<DataPath>Объект.Файлы.ТочкаВхода</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ФайлыТочкаВходаКонтекстноеМеню" id="58"/>
+					<ExtendedTooltip name="ФайлыТочкаВходаРасширеннаяПодсказка" id="59"/>
+				</InputField>
 				<InputField name="ФайлыCode" id="29">
 					<DataPath>Объект.Файлы.Code</DataPath>
 					<EditMode>EnterOnInput</EditMode>
@@ -272,6 +301,7 @@
 				<xr:Ref>StdPicture.AppearanceUpArrowGreen</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
+			<Action>ВыгрузитьФайл</Action>
 			<Representation>TextPicture</Representation>
 		</Command>
 	</Commands>

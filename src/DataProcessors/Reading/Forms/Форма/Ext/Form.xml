@@ -47,6 +47,9 @@
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="ФайлКонтекстноеМеню" id="64"/>
 					<ExtendedTooltip name="ФайлРасширеннаяПодсказка" id="65"/>
+					<Events>
+						<Event name="OnChange">ФайлПриИзменении</Event>
+					</Events>
 				</InputField>
 			</ChildItems>
 		</UsualGroup>
@@ -280,7 +283,10 @@
 	ВЫРАЗИТЬ("" КАК СТРОКА(150)) КАК Описание,
 	Code.Адрес КАК Адрес
 ИЗ
-	РегистрСведений.Code КАК Code</QueryText>
+	РегистрСведений.Code КАК Code
+ГДЕ
+	Code.Проект = &amp;Проект
+	И Code.Файл = &amp;Файл</QueryText>
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>opCode</dcssch:dataPath>
 					<dcssch:field>opCode</dcssch:field>
@@ -311,6 +317,46 @@
 						</v8:item>
 					</dcssch:title>
 				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Файл</dcssch:dataPath>
+					<dcssch:field>Файл</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Проект</dcssch:dataPath>
+					<dcssch:field>Проект</dcssch:field>
+				</Field>
+				<Parameter>
+					<dcssch:name>Проект</dcssch:name>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Проект</v8:content>
+						</v8:item>
+					</dcssch:title>
+					<dcssch:valueType>
+						<v8:Type>cfg:CatalogRef.Проекты</v8:Type>
+					</dcssch:valueType>
+					<dcssch:value xsi:nil="true"/>
+					<dcssch:useRestriction>true</dcssch:useRestriction>
+				</Parameter>
+				<Parameter>
+					<dcssch:name>Файл</dcssch:name>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Файл</v8:content>
+						</v8:item>
+					</dcssch:title>
+					<dcssch:valueType>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</dcssch:valueType>
+					<dcssch:value xsi:type="xs:string"/>
+					<dcssch:useRestriction>true</dcssch:useRestriction>
+				</Parameter>
 				<MainTable>InformationRegister.Code</MainTable>
 				<ListSettings>
 					<dcsset:filter>
@@ -339,6 +385,54 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Процедуры/функции</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ЭтоПроцедура" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Это процедура</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ЭтоФункция" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Это функция</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Экспортная" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Экспортная</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ПараметрыПроцедурыФункции" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Параметры процедуры функции</v8:content>
 				</v8:item>
 			</Title>
 			<Type>

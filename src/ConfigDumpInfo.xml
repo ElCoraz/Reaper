@@ -21,8 +21,8 @@
 		<Metadata name="Catalog.Проекты.ObjectModule" id="308c9e8c-b1f3-4e15-a9a0-53d02c9f99b0.0" configVersion="c98038054f5889448ad9412ca21b130200000000"/>
 		<Metadata name="CommonCommand.ОпКоды" id="c4e586ca-9b08-4b0a-9254-358581295cf6" configVersion="b81559bcea29934c9113168d49f6f1fb00000000"/>
 		<Metadata name="CommonCommand.ОпКоды.CommandModule" id="c4e586ca-9b08-4b0a-9254-358581295cf6.2" configVersion="5cc09f13564f404b803462b1263bb22400000000"/>
-		<Metadata name="CommonModule.Decompile" id="0ba28ade-a041-4a0f-a8f2-e3e8efe32c98" configVersion="0aa0c62bd8fe3d45991d8e63f4087b6400000000"/>
-		<Metadata name="CommonModule.Decompile.Module" id="0ba28ade-a041-4a0f-a8f2-e3e8efe32c98.0" configVersion="3841b24d8e57fc4492964998b9403d7400000000"/>
+		<Metadata name="CommonModule.Decompile" id="0ba28ade-a041-4a0f-a8f2-e3e8efe32c98" configVersion="f470d9889db24f48a2e5c769895da2e800000000"/>
+		<Metadata name="CommonModule.Decompile.Module" id="0ba28ade-a041-4a0f-a8f2-e3e8efe32c98.0" configVersion="290efcafcf0c4a43b9e2a8e69795b13400000000"/>
 		<Metadata name="CommonPicture.DataBase" id="6d220b9f-a90e-4f08-b70a-1b4cead451ed" configVersion="76b24469a5d83d43979c7d0dd9e3d98000000000"/>
 		<Metadata name="CommonPicture.DataBase.Picture" id="6d220b9f-a90e-4f08-b70a-1b4cead451ed.0" configVersion="6042466827614a4caac32a5ae828496200000000"/>
 		<Metadata name="CommonPicture.Decompiler" id="fba35b04-4288-4fe0-bb86-a6a1845608d7" configVersion="1f0a6c55e315e044a3ff399c1ba90e9100000000"/>
@@ -52,8 +52,8 @@
 			<Metadata name="DataProcessor.Reading.Command.Reading" id="f6eb42e0-c47e-40e0-8a97-6bab8ce8e860"/>
 		</Metadata>
 		<Metadata name="DataProcessor.Reading.Command.Reading.CommandModule" id="f6eb42e0-c47e-40e0-8a97-6bab8ce8e860.2" configVersion="bcdbb52bae24e743ad545696eaeb1cff00000000"/>
-		<Metadata name="DataProcessor.Reading.Form.Форма" id="0074bf87-dd06-4930-bbc5-56b43f7812f0" configVersion="51154089e7280c43a5f4b804d4eaca1f00000000"/>
-		<Metadata name="DataProcessor.Reading.Form.Форма.Form" id="0074bf87-dd06-4930-bbc5-56b43f7812f0.0" configVersion="c4a49117c9636349b458ed5ccb5b37da00000000"/>
+		<Metadata name="DataProcessor.Reading.Form.Форма" id="0074bf87-dd06-4930-bbc5-56b43f7812f0" configVersion="4d553d12bc5cce49999d647c5ed8ca7700000000"/>
+		<Metadata name="DataProcessor.Reading.Form.Форма.Form" id="0074bf87-dd06-4930-bbc5-56b43f7812f0.0" configVersion="137796c5cc5ce146b5ef5d6b4b13bc5b00000000"/>
 		<Metadata name="DataProcessor.StackMachine" id="8536c2a0-32fd-4443-974b-cc567324383b" configVersion="1cda1f76d23a734bbcf21cae795fd8c600000000">
 			<Metadata name="DataProcessor.StackMachine.Attribute.CodeText" id="081ae355-73cf-4f9c-b2d6-9dceb27c46fb"/>
 			<Metadata name="DataProcessor.StackMachine.TabularSection.Function.Attribute.Наименование" id="25e9ac61-f4a0-4e63-a087-e1168e8991b4"/>
@@ -153,8 +153,8 @@
 			<Metadata name="InformationRegister.Memory.Resource.Значение" id="cf8f57c7-2936-4dad-ae09-6b98c4c565e8"/>
 			<Metadata name="InformationRegister.Memory.Dimension.Файл" id="e5ba3453-9e65-4109-bc53-e249f31c0f49"/>
 		</Metadata>
-		<Metadata name="InformationRegister.Memory.Form.ФормаЗаписи" id="b18d2b74-e10d-409d-a574-49a417ff0ac4" configVersion="78ca6589866ff5438b784c0d1554857300000000"/>
-		<Metadata name="InformationRegister.Memory.Form.ФормаЗаписи.Form" id="b18d2b74-e10d-409d-a574-49a417ff0ac4.0" configVersion="ef379807d6d9754287dd039ef265fd9e00000000"/>
+		<Metadata name="InformationRegister.Memory.Form.ФормаЗаписи" id="b18d2b74-e10d-409d-a574-49a417ff0ac4" configVersion="4f89c5ce0458e0458e66e5f68899c52f00000000"/>
+		<Metadata name="InformationRegister.Memory.Form.ФормаЗаписи.Form" id="b18d2b74-e10d-409d-a574-49a417ff0ac4.0" configVersion="3799fab85df3b340bd84f9b25fb47ba900000000"/>
 		<Metadata name="InformationRegister.Memory.Form.ФормаСписка" id="a6efc122-e7ac-4443-bfc6-52da03780bcf" configVersion="f312d02590fe1349aa4cfe9f1939e4f400000000"/>
 		<Metadata name="InformationRegister.Memory.Form.ФормаСписка.Form" id="a6efc122-e7ac-4443-bfc6-52da03780bcf.0" configVersion="5e95e6cf663293429966d28ba7e3e9a100000000"/>
 		<Metadata name="InformationRegister.Stack" id="693b247e-1cf0-4230-82bd-f008802e34c7" configVersion="b8876adbe0145b4393f7b433e1220c0800000000">

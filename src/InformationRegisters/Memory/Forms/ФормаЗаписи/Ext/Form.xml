@@ -41,6 +41,12 @@
 				<Event name="OnChange">ЗначениеОтладкиПриИзменении</Event>
 			</Events>
 		</InputField>
+		<CheckBoxField name="Пропускать" id="16">
+			<DataPath>Запись.Пропускать</DataPath>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ПропускатьКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="ПропускатьРасширеннаяПодсказка" id="18"/>
+		</CheckBoxField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Запись" id="1">

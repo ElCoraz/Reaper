@@ -178,6 +178,18 @@
 					<dcssch:dataPath>Значение</dcssch:dataPath>
 					<dcssch:field>Значение</dcssch:field>
 				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Файл</dcssch:dataPath>
+					<dcssch:field>Файл</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Проект</dcssch:dataPath>
+					<dcssch:field>Проект</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Наименование</dcssch:dataPath>
+					<dcssch:field>Наименование</dcssch:field>
+				</Field>
 				<Parameter>
 					<dcssch:name>Адрес</dcssch:name>
 					<dcssch:title xsi:type="v8:LocalStringType">

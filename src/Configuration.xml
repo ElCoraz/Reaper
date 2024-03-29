@@ -253,6 +253,7 @@
 			<CommonPicture>Logo</CommonPicture>
 			<CommonTemplate>v8unpack_win_x64</CommonTemplate>
 			<CommonTemplate>ОпКоды</CommonTemplate>
+			<CommonTemplate>HTML</CommonTemplate>
 			<CommonModule>Decompile</CommonModule>
 			<CommonCommand>ОпКоды</CommonCommand>
 			<Constant>ТекущаяСтрока</Constant>

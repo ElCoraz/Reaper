@@ -257,6 +257,7 @@
 			<CommonModule>Decompile</CommonModule>
 			<CommonCommand>ОпКоды</CommonCommand>
 			<Constant>ТекущаяСтрока</Constant>
+			<CommonForm>ФормаПросмотраКода</CommonForm>
 			<Catalog>Проекты</Catalog>
 			<Enum>Значение</Enum>
 			<Enum>ТипЗначенияПамяти</Enum>

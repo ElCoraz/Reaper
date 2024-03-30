@@ -14,6 +14,11 @@
 				<CommandName>Form.Command.ВыгрузитьФайл</CommandName>
 				<ExtendedTooltip name="ФормаВыгрузитьФайлРасширеннаяПодсказка" id="40"/>
 			</Button>
+			<Button name="ФормаОчистить" id="60">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Очистить</CommandName>
+				<ExtendedTooltip name="ФормаОчиститьРасширеннаяПодсказка" id="61"/>
+			</Button>
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
@@ -61,7 +66,7 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Префиксы</v8:content>
+					<v8:content>Префиксы (Устанавливать до загрузки)</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
@@ -302,6 +307,26 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ВыгрузитьФайл</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="Очистить" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.DeleteDirectly</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>Очистить</Action>
 			<Representation>TextPicture</Representation>
 		</Command>
 	</Commands>

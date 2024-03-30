@@ -117,28 +117,22 @@
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="48"/>
 			<ChildItems>
-				<LabelDecoration name="Декорация1" id="49">
-					<Title formatted="false">
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Процедуры/Функции:</v8:content>
-						</v8:item>
-					</Title>
-					<ContextMenu name="Декорация1КонтекстноеМеню" id="50"/>
-					<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="51"/>
-				</LabelDecoration>
-				<LabelDecoration name="ПФ" id="52">
-					<ContextMenu name="ПФКонтекстноеМеню" id="53"/>
-					<ExtendedTooltip name="ПФРасширеннаяПодсказка" id="54"/>
-				</LabelDecoration>
 				<InputField name="ПроцедурыФункции" id="44">
 					<DataPath>ПроцедурыФункции</DataPath>
-					<TitleLocation>None</TitleLocation>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Процедуры/Функции</v8:content>
+						</v8:item>
+					</Title>
 					<AutoMaxWidth>false</AutoMaxWidth>
+					<Wrap>false</Wrap>
 					<ClearButton>true</ClearButton>
 					<OpenButton>true</OpenButton>
 					<ListChoiceMode>true</ListChoiceMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ChooseType>false</ChooseType>
+					<TextEdit>false</TextEdit>
 					<ContextMenu name="ПроцедурыФункцииКонтекстноеМеню" id="45"/>
 					<ExtendedTooltip name="ПроцедурыФункцииРасширеннаяПодсказка" id="46"/>
 					<Events>

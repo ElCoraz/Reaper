@@ -73,8 +73,8 @@
 			<Metadata name="DataProcessor.Reading.Command.Reading" id="f6eb42e0-c47e-40e0-8a97-6bab8ce8e860"/>
 		</Metadata>
 		<Metadata name="DataProcessor.Reading.Command.Reading.CommandModule" id="f6eb42e0-c47e-40e0-8a97-6bab8ce8e860.2" configVersion="73a434cf41da1b418c877539fc12f78700000000"/>
-		<Metadata name="DataProcessor.Reading.Form.Форма" id="0074bf87-dd06-4930-bbc5-56b43f7812f0" configVersion="dc597c1d8b1856438ea69bd79c9b522500000000"/>
-		<Metadata name="DataProcessor.Reading.Form.Форма.Form" id="0074bf87-dd06-4930-bbc5-56b43f7812f0.0" configVersion="384b138a21684f4a9e817e0e6090818d00000000"/>
+		<Metadata name="DataProcessor.Reading.Form.Форма" id="0074bf87-dd06-4930-bbc5-56b43f7812f0" configVersion="1c56221c2e2bc042aaa6305908bc146800000000"/>
+		<Metadata name="DataProcessor.Reading.Form.Форма.Form" id="0074bf87-dd06-4930-bbc5-56b43f7812f0.0" configVersion="f97ad0d7131d93418eaadff8f296f27900000000"/>
 		<Metadata name="DataProcessor.StackMachine" id="8536c2a0-32fd-4443-974b-cc567324383b" configVersion="15595daf785ad947a29098d77735788000000000">
 			<Metadata name="DataProcessor.StackMachine.Attribute.CodeText" id="081ae355-73cf-4f9c-b2d6-9dceb27c46fb"/>
 			<Metadata name="DataProcessor.StackMachine.TabularSection.Function.Attribute.Наименование" id="25e9ac61-f4a0-4e63-a087-e1168e8991b4"/>

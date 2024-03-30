@@ -248,12 +248,12 @@
 			<Language>Русский</Language>
 			<Subsystem>Основная</Subsystem>
 			<CommonPicture>DataBase</CommonPicture>
-			<CommonPicture>Read</CommonPicture>
 			<CommonPicture>Decompiler</CommonPicture>
 			<CommonPicture>Logo</CommonPicture>
+			<CommonPicture>Read</CommonPicture>
+			<CommonTemplate>HTML</CommonTemplate>
 			<CommonTemplate>v8unpack_win_x64</CommonTemplate>
 			<CommonTemplate>ОпКоды</CommonTemplate>
-			<CommonTemplate>HTML</CommonTemplate>
 			<CommonModule>Decompile</CommonModule>
 			<CommonCommand>ОпКоды</CommonCommand>
 			<Constant>ТекущаяСтрока</Constant>
@@ -263,8 +263,11 @@
 			<Enum>ТипЗначенияПамяти</Enum>
 			<Enum>ТипМетки</Enum>
 			<Enum>ТипЗначенияПроцедурыФункции</Enum>
-			<DataProcessor>StackMachine</DataProcessor>
+			<DataProcessor>Beautifier</DataProcessor>
+			<DataProcessor>Obusfucator</DataProcessor>
 			<DataProcessor>Reading</DataProcessor>
+			<DataProcessor>StackMachine</DataProcessor>
+			<DataProcessor>ДекодировкаСтрок</DataProcessor>
 			<InformationRegister>Code</InformationRegister>
 			<InformationRegister>CodeText</InformationRegister>
 			<InformationRegister>History</InformationRegister>
@@ -272,9 +275,10 @@
 			<InformationRegister>Memory</InformationRegister>
 			<InformationRegister>Stack</InformationRegister>
 			<InformationRegister>StackTMP</InformationRegister>
+			<InformationRegister>ВесОперации</InformationRegister>
 			<InformationRegister>Значения</InformationRegister>
-			<InformationRegister>ПроцедурыФункции</InformationRegister>
 			<InformationRegister>ЗначенияПроцедурФункций</InformationRegister>
+			<InformationRegister>ПроцедурыФункции</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

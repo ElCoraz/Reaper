@@ -23,6 +23,10 @@
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.Reading</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Проекты</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ОпКоды</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ДекодировкаСтрок</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.Beautifier</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.Obusfucator</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ВесОперации</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

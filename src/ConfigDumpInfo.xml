@@ -40,7 +40,7 @@
 		<Metadata name="CommonTemplate.v8unpack_win_x64.Template" id="6be0b02e-4bfb-410d-94fa-5ffed2ed8794.0" configVersion="2eae500ce6788d488e9092b61dd203b100000000"/>
 		<Metadata name="CommonTemplate.ОпКоды" id="5fa2c5b0-a96b-4303-a90e-8bfff2af1355" configVersion="121fb8085c831546923b4f0d7029de0800000000"/>
 		<Metadata name="CommonTemplate.ОпКоды.Template" id="5fa2c5b0-a96b-4303-a90e-8bfff2af1355.0" configVersion="5c7c691f79355d4e981592fb12e548b300000000"/>
-		<Metadata name="Configuration.Reaper" id="5cec394c-a86c-49b3-abd9-25e84bc85757" configVersion="3bd7a716db057545b210c262a81fc4aa00000000"/>
+		<Metadata name="Configuration.Reaper" id="5cec394c-a86c-49b3-abd9-25e84bc85757" configVersion="311c6f3d4182e844a3553d8af8e726c100000000"/>
 		<Metadata name="Configuration.Reaper.Logo" id="bd63fb7d-41fd-42cc-812a-2804afc5111a.1" configVersion="d6c26c7d124b7142bff66db65f33ff6100000000"/>
 		<Metadata name="Configuration.Reaper.MainSectionCommandInterface" id="bd63fb7d-41fd-42cc-812a-2804afc5111a.9" configVersion="bd9774f1a5a6324aa9f572e11a350f9e00000000"/>
 		<Metadata name="Configuration.Reaper.ManagedApplicationModule" id="bd63fb7d-41fd-42cc-812a-2804afc5111a.6" configVersion="81328a15511f4f4489b06b44fd9c54ef00000000"/>

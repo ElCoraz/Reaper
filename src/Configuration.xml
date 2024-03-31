@@ -254,8 +254,8 @@
 			<CommonTemplate>v8unpack_win_x64</CommonTemplate>
 			<CommonTemplate>ОпКоды</CommonTemplate>
 			<CommonModule>Decompile</CommonModule>
-			<CommonModule>СтроковыеФункции</CommonModule>
 			<CommonModule>Парсинг</CommonModule>
+			<CommonModule>СтроковыеФункции</CommonModule>
 			<CommonCommand>ОпКоды</CommonCommand>
 			<Constant>ТекущаяСтрока</Constant>
 			<CommonForm>ПросмотраКода</CommonForm>

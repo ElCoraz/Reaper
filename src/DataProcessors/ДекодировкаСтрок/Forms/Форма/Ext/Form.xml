@@ -31,12 +31,14 @@
 			<ChildItems>
 				<InputField name="ПерваяСтрока" id="17">
 					<DataPath>Объект.ПерваяСтрока</DataPath>
+					<AutoMaxWidth>false</AutoMaxWidth>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="ПерваяСтрокаКонтекстноеМеню" id="18"/>
 					<ExtendedTooltip name="ПерваяСтрокаРасширеннаяПодсказка" id="19"/>
 				</InputField>
 				<InputField name="ВтораяСтрока" id="20">
 					<DataPath>Объект.ВтораяСтрока</DataPath>
+					<AutoMaxWidth>false</AutoMaxWidth>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="ВтораяСтрокаКонтекстноеМеню" id="21"/>
 					<ExtendedTooltip name="ВтораяСтрокаРасширеннаяПодсказка" id="22"/>
@@ -45,6 +47,7 @@
 		</UsualGroup>
 		<InputField name="Результат" id="23">
 			<DataPath>Объект.Результат</DataPath>
+			<AutoMaxWidth>false</AutoMaxWidth>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="РезультатКонтекстноеМеню" id="24"/>
 			<ExtendedTooltip name="РезультатРасширеннаяПодсказка" id="25"/>

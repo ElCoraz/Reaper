@@ -30,7 +30,7 @@
 		<ChildObjects>
 			<Attribute uuid="93fd950c-f51e-40a0-bb29-74cf28234b09">
 				<Properties>
-					<Name>Стр1</Name>
+					<Name>ПерваяСтрока</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -68,7 +68,7 @@
 			</Attribute>
 			<Attribute uuid="e15305e8-21fc-48f5-9a76-018bd190663c">
 				<Properties>
-					<Name>Стр2</Name>
+					<Name>ВтораяСтрока</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -106,7 +106,7 @@
 			</Attribute>
 			<Attribute uuid="6c13b450-c749-412c-9743-e2f88a1896bb">
 				<Properties>
-					<Name>Стр3</Name>
+					<Name>Результат</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>

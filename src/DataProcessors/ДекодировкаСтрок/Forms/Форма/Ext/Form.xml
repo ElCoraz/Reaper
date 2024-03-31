@@ -2,43 +2,52 @@
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
-			<Button name="ФормаКоманда1" id="1">
+			<Button name="ФормаРасшифровать" id="26">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.Расшифровать</CommandName>
-				<ExtendedTooltip name="ФормаКоманда1РасширеннаяПодсказка" id="2"/>
+				<ExtendedTooltip name="ФормаРасшифроватьРасширеннаяПодсказка" id="27"/>
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
 	<ChildItems>
-		<UsualGroup name="Группа1" id="15">
+		<UsualGroup name="ГруппаОсновная" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа основная</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа основная</v8:content>
+				</v8:item>
+			</ToolTip>
 			<Group>AlwaysHorizontal</Group>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="16"/>
+			<ExtendedTooltip name="ГруппаОсновнаяРасширеннаяПодсказка" id="16"/>
 			<ChildItems>
-				<InputField name="Стр1" id="6">
-					<DataPath>Объект.Стр1</DataPath>
-					<AutoMaxWidth>false</AutoMaxWidth>
+				<InputField name="ПерваяСтрока" id="17">
+					<DataPath>Объект.ПерваяСтрока</DataPath>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="Стр1КонтекстноеМеню" id="7"/>
-					<ExtendedTooltip name="Стр1РасширеннаяПодсказка" id="8"/>
+					<ContextMenu name="ПерваяСтрокаКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="ПерваяСтрокаРасширеннаяПодсказка" id="19"/>
 				</InputField>
-				<InputField name="Стр2" id="9">
-					<DataPath>Объект.Стр2</DataPath>
-					<AutoMaxWidth>false</AutoMaxWidth>
+				<InputField name="ВтораяСтрока" id="20">
+					<DataPath>Объект.ВтораяСтрока</DataPath>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="Стр2КонтекстноеМеню" id="10"/>
-					<ExtendedTooltip name="Стр2РасширеннаяПодсказка" id="11"/>
+					<ContextMenu name="ВтораяСтрокаКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="ВтораяСтрокаРасширеннаяПодсказка" id="22"/>
 				</InputField>
 			</ChildItems>
 		</UsualGroup>
-		<InputField name="Стр3" id="12">
-			<DataPath>Объект.Стр3</DataPath>
-			<AutoMaxWidth>false</AutoMaxWidth>
+		<InputField name="Результат" id="23">
+			<DataPath>Объект.Результат</DataPath>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="Стр3КонтекстноеМеню" id="13"/>
-			<ExtendedTooltip name="Стр3РасширеннаяПодсказка" id="14"/>
+			<ContextMenu name="РезультатКонтекстноеМеню" id="24"/>
+			<ExtendedTooltip name="РезультатРасширеннаяПодсказка" id="25"/>
 		</InputField>
 	</ChildItems>
 	<Attributes>
@@ -67,7 +76,7 @@
 				<xr:Ref>StdPicture.GenerateReport</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
-			<Action>Команда1</Action>
+			<Action>Расшифровать</Action>
 			<Representation>TextPicture</Representation>
 		</Command>
 	</Commands>

@@ -246,25 +246,25 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>НеИспользовать</Subsystem>
 			<Subsystem>Основная</Subsystem>
-			<CommonPicture>DataBase</CommonPicture>
 			<CommonPicture>Decompiler</CommonPicture>
 			<CommonPicture>Logo</CommonPicture>
-			<CommonPicture>Read</CommonPicture>
 			<CommonTemplate>HTML</CommonTemplate>
 			<CommonTemplate>v8unpack_win_x64</CommonTemplate>
 			<CommonTemplate>ОпКоды</CommonTemplate>
 			<CommonModule>Decompile</CommonModule>
 			<CommonCommand>ОпКоды</CommonCommand>
 			<Constant>ТекущаяСтрока</Constant>
-			<CommonForm>ФормаПросмотраКода</CommonForm>
+			<CommonForm>ПросмотраКода</CommonForm>
+			<Catalog>Обфускатор</Catalog>
 			<Catalog>Проекты</Catalog>
 			<Enum>Значение</Enum>
 			<Enum>ТипЗначенияПамяти</Enum>
 			<Enum>ТипМетки</Enum>
 			<Enum>ТипЗначенияПроцедурыФункции</Enum>
 			<DataProcessor>Beautifier</DataProcessor>
-			<DataProcessor>Obusfucator</DataProcessor>
+			<DataProcessor>Deobfuscator</DataProcessor>
 			<DataProcessor>Reading</DataProcessor>
 			<DataProcessor>StackMachine</DataProcessor>
 			<DataProcessor>ДекодировкаСтрок</DataProcessor>

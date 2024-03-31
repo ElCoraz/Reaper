@@ -76,7 +76,7 @@
 			<UsedMobileApplicationFunctionalities>
 				<app:functionality>
 					<app:functionality>Biometrics</app:functionality>
-					<app:use>true</app:use>
+					<app:use>false</app:use>
 				</app:functionality>
 				<app:functionality>
 					<app:functionality>Location</app:functionality>
@@ -176,7 +176,7 @@
 				</app:functionality>
 				<app:functionality>
 					<app:functionality>OSBackup</app:functionality>
-					<app:use>true</app:use>
+					<app:use>false</app:use>
 				</app:functionality>
 				<app:functionality>
 					<app:functionality>ApplicationUsageStatistics</app:functionality>

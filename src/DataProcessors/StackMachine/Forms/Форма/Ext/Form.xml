@@ -213,14 +213,12 @@
 					</Title>
 					<CommandSet>
 						<ExcludedCommand>Change</ExcludedCommand>
-						<ExcludedCommand>ChangeHistory</ExcludedCommand>
 						<ExcludedCommand>Copy</ExcludedCommand>
 						<ExcludedCommand>CopyToClipboard</ExcludedCommand>
 						<ExcludedCommand>Create</ExcludedCommand>
 						<ExcludedCommand>Delete</ExcludedCommand>
 						<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
 						<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
-						<ExcludedCommand>GetURL</ExcludedCommand>
 						<ExcludedCommand>ListSettings</ExcludedCommand>
 						<ExcludedCommand>LoadDynamicListSettings</ExcludedCommand>
 						<ExcludedCommand>OutputList</ExcludedCommand>

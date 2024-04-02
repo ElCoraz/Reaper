@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 		<ChildItems>
@@ -52,7 +52,6 @@
 			</Events>
 		</InputField>
 		<UsualGroup name="Группа2" id="31">
-			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="32"/>
@@ -75,7 +74,6 @@
 		</UsualGroup>
 		<UsualGroup name="Группа1" id="29">
 			<Group>AlwaysHorizontal</Group>
-			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="30"/>
@@ -299,7 +297,6 @@
 		</UsualGroup>
 		<UsualGroup name="Группа3" id="179">
 			<Group>AlwaysHorizontal</Group>
-			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="180"/>
@@ -307,7 +304,6 @@
 				<UsualGroup name="Группа4" id="181">
 					<Width>1</Width>
 					<Group>AlwaysHorizontal</Group>
-					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="182"/>
@@ -478,7 +474,6 @@
 				</UsualGroup>
 				<UsualGroup name="Группа5" id="183">
 					<Width>1</Width>
-					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="184"/>
@@ -614,22 +609,6 @@
 	Code.Operand КАК Operand
 ИЗ
 	РегистрСведений.Code КАК Code</QueryText>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Строка</dcssch:dataPath>
-					<dcssch:field>Строка</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Operand</dcssch:dataPath>
-					<dcssch:field>Operand</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>break</dcssch:dataPath>
-					<dcssch:field>break</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>opCode</dcssch:dataPath>
-					<dcssch:field>opCode</dcssch:field>
-				</Field>
 				<MainTable>InformationRegister.Code</MainTable>
 				<ListSettings>
 					<dcsset:filter>
@@ -675,30 +654,6 @@
 	Memory.Строка КАК Строка
 ИЗ
 	РегистрСведений.Memory КАК Memory</QueryText>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Адрес</dcssch:dataPath>
-					<dcssch:field>Адрес</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Наименование</dcssch:dataPath>
-					<dcssch:field>Наименование</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Значение</dcssch:dataPath>
-					<dcssch:field>Значение</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Тип</dcssch:dataPath>
-					<dcssch:field>Тип</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Отладка</dcssch:dataPath>
-					<dcssch:field>Отладка</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Строка</dcssch:dataPath>
-					<dcssch:field>Строка</dcssch:field>
-				</Field>
 				<MainTable>InformationRegister.Memory</MainTable>
 				<ListSettings>
 					<dcsset:filter>
@@ -745,34 +700,6 @@
 	Stack.АдресУДС КАК АдресУДС
 ИЗ
 	РегистрСведений.Stack КАК Stack</QueryText>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Адрес</dcssch:dataPath>
-					<dcssch:field>Адрес</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Значение</dcssch:dataPath>
-					<dcssch:field>Значение</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Отладка</dcssch:dataPath>
-					<dcssch:field>Отладка</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Наименование</dcssch:dataPath>
-					<dcssch:field>Наименование</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Строка</dcssch:dataPath>
-					<dcssch:field>Строка</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>АдресУДС</dcssch:dataPath>
-					<dcssch:field>АдресУДС</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Шаг</dcssch:dataPath>
-					<dcssch:field>Шаг</dcssch:field>
-				</Field>
 				<MainTable>InformationRegister.Stack</MainTable>
 				<ListSettings>
 					<dcsset:filter>
@@ -819,34 +746,6 @@
 	History.Строка КАК Строка
 ИЗ
 	РегистрСведений.History КАК History</QueryText>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Строка</dcssch:dataPath>
-					<dcssch:field>Строка</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Ном</dcssch:dataPath>
-					<dcssch:field>Ном</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Значение</dcssch:dataPath>
-					<dcssch:field>Значение</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>opCode</dcssch:dataPath>
-					<dcssch:field>opCode</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Operand</dcssch:dataPath>
-					<dcssch:field>Operand</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Описание</dcssch:dataPath>
-					<dcssch:field>Описание</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Наименование</dcssch:dataPath>
-					<dcssch:field>Наименование</dcssch:field>
-				</Field>
 				<MainTable>InformationRegister.History</MainTable>
 				<ListSettings>
 					<dcsset:filter>
@@ -891,26 +790,6 @@
 	StackTMP.Строка КАК Строка
 ИЗ
 	РегистрСведений.StackTMP КАК StackTMP</QueryText>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Адрес</dcssch:dataPath>
-					<dcssch:field>Адрес</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Значение</dcssch:dataPath>
-					<dcssch:field>Значение</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Отладка</dcssch:dataPath>
-					<dcssch:field>Отладка</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Наименование</dcssch:dataPath>
-					<dcssch:field>Наименование</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Строка</dcssch:dataPath>
-					<dcssch:field>Строка</dcssch:field>
-				</Field>
 				<MainTable>InformationRegister.StackTMP</MainTable>
 				<ListSettings>
 					<dcsset:filter>

@@ -141,11 +141,11 @@
 			<Form>Форма</Form>
 			<Command uuid="9c02b906-e8c8-440e-ba3a-7e26f1210729">
 				<Properties>
-					<Name>Obusfucator</Name>
+					<Name>Deobfuscator</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Obusfucator</v8:content>
+							<v8:content>Deobfuscator</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

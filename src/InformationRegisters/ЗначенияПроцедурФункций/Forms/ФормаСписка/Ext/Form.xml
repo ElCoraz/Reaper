@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
 			<Button name="Очистить" id="28">
@@ -168,66 +168,6 @@
 				ТОГДА РегистрСведенийЗначенияПроцедурФункций.Тип = &amp;Тип
 			ИНАЧЕ ИСТИНА
 		КОНЕЦ</QueryText>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Адрес</dcssch:dataPath>
-					<dcssch:field>Адрес</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Тип</dcssch:dataPath>
-					<dcssch:field>Тип</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Номер</dcssch:dataPath>
-					<dcssch:field>Номер</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Значение</dcssch:dataPath>
-					<dcssch:field>Значение</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Файл</dcssch:dataPath>
-					<dcssch:field>Файл</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Проект</dcssch:dataPath>
-					<dcssch:field>Проект</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Наименование</dcssch:dataPath>
-					<dcssch:field>Наименование</dcssch:field>
-				</Field>
-				<Parameter>
-					<dcssch:name>Адрес</dcssch:name>
-					<dcssch:title xsi:type="v8:LocalStringType">
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Адрес</v8:content>
-						</v8:item>
-					</dcssch:title>
-					<dcssch:valueType>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>0</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</dcssch:valueType>
-					<dcssch:value xsi:type="xs:string"/>
-					<dcssch:useRestriction>true</dcssch:useRestriction>
-				</Parameter>
-				<Parameter>
-					<dcssch:name>Тип</dcssch:name>
-					<dcssch:title xsi:type="v8:LocalStringType">
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Тип</v8:content>
-						</v8:item>
-					</dcssch:title>
-					<dcssch:valueType>
-						<v8:Type>cfg:EnumRef.ТипЗначенияПроцедурыФункции</v8:Type>
-					</dcssch:valueType>
-					<dcssch:value xsi:nil="true"/>
-					<dcssch:useRestriction>true</dcssch:useRestriction>
-				</Parameter>
 				<MainTable>InformationRegister.ЗначенияПроцедурФункций</MainTable>
 				<ListSettings>
 					<dcsset:filter>

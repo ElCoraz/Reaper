@@ -158,6 +158,16 @@
 				</InputField>
 			</ChildItems>
 		</UsualGroup>
+		<CommandBar name="Группа5" id="82">
+			<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="83"/>
+			<ChildItems>
+				<Button name="Save" id="84">
+					<Type>CommandBarButton</Type>
+					<CommandName>Form.Command.Save</CommandName>
+					<ExtendedTooltip name="SaveРасширеннаяПодсказка" id="85"/>
+				</Button>
+			</ChildItems>
+		</CommandBar>
 		<InputField name="Text" id="55">
 			<DataPath>Объект.Text</DataPath>
 			<TitleLocation>None</TitleLocation>
@@ -644,6 +654,26 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>Run</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="Save" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Save</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.SaveFile</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>Save</Action>
 			<Representation>TextPicture</Representation>
 		</Command>
 	</Commands>

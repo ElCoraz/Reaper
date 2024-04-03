@@ -66,15 +66,18 @@
 		<Metadata name="DataProcessor.Beautifier.Command.Beautifier.CommandModule" id="f6618c39-932d-4f9a-a50a-8e1088633e65.2" configVersion="ba73a7dfef2c7c4a8b3c0a7ddde9838600000000"/>
 		<Metadata name="DataProcessor.Beautifier.Form.Форма" id="1d1c7b6f-1bdb-4138-91f7-4e1169acb5b7" configVersion="06bb96a082583f46a7e699062c9c902000000000"/>
 		<Metadata name="DataProcessor.Beautifier.Form.Форма.Form" id="1d1c7b6f-1bdb-4138-91f7-4e1169acb5b7.0" configVersion="51d2f0e5ad58ac4e927fd203dd5c3e1d00000000"/>
-		<Metadata name="DataProcessor.Deobfuscator" id="570eeaf9-de37-4dd8-bc74-865073e2f584" configVersion="416582ece8f1c840a30f17da7c58b78300000000">
+		<Metadata name="DataProcessor.Deobfuscator" id="570eeaf9-de37-4dd8-bc74-865073e2f584" configVersion="297f63b8720774478c6e303c53e44f7600000000">
+			<Metadata name="DataProcessor.Deobfuscator.Attribute.Проект" id="49970932-03d1-4c13-aea4-242b7a9e1f0c"/>
+			<Metadata name="DataProcessor.Deobfuscator.Attribute.Файл" id="5ad6f2b9-cdcc-4426-a2ce-279827de30a1"/>
 			<Metadata name="DataProcessor.Deobfuscator.Attribute.Результат" id="5b745080-5419-48aa-a65a-724dc8c65ad5"/>
+			<Metadata name="DataProcessor.Deobfuscator.Attribute.ФункцияПроцедура" id="671694ae-35c5-46c4-8418-2366bf9059bf"/>
 			<Metadata name="DataProcessor.Deobfuscator.Attribute.Обфускатор" id="934eaf48-1914-464f-9d4e-3c90cd9e690a"/>
 			<Metadata name="DataProcessor.Deobfuscator.Command.Deobfuscator" id="9c02b906-e8c8-440e-ba3a-7e26f1210729"/>
 			<Metadata name="DataProcessor.Deobfuscator.Attribute.Данные" id="cf7bf79b-3250-48a8-9ec9-95f1efc032ec"/>
 		</Metadata>
 		<Metadata name="DataProcessor.Deobfuscator.Command.Deobfuscator.CommandModule" id="9c02b906-e8c8-440e-ba3a-7e26f1210729.2" configVersion="617657a16befde41a99a4b40548b12fe00000000"/>
-		<Metadata name="DataProcessor.Deobfuscator.Form.Форма" id="d17652b0-31fe-4c1d-82bd-e8a499ad44de" configVersion="c0d17215f1e9674e8896514bf17242f300000000"/>
-		<Metadata name="DataProcessor.Deobfuscator.Form.Форма.Form" id="d17652b0-31fe-4c1d-82bd-e8a499ad44de.0" configVersion="fb1da86bbc433e4bbc59290375b7fd1700000000"/>
+		<Metadata name="DataProcessor.Deobfuscator.Form.Форма" id="d17652b0-31fe-4c1d-82bd-e8a499ad44de" configVersion="3c3584ab34449349981deb44ed7e389200000000"/>
+		<Metadata name="DataProcessor.Deobfuscator.Form.Форма.Form" id="d17652b0-31fe-4c1d-82bd-e8a499ad44de.0" configVersion="15c8b8a0d78b86459021f9c2c66f657d00000000"/>
 		<Metadata name="DataProcessor.Reading" id="09e86135-ba12-4b49-863b-ef7cef5f57ea" configVersion="454e8d1b1ee27f49b7282cb5ebdf077400000000">
 			<Metadata name="DataProcessor.Reading.Attribute.Приоритет" id="50347232-da81-4f67-b749-bfddee556cf3"/>
 			<Metadata name="DataProcessor.Reading.Attribute.CurrentPoin" id="7f6dddd7-7984-48c4-983b-d5d40a493d7b"/>

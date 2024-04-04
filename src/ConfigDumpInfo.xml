@@ -76,8 +76,8 @@
 			<Metadata name="DataProcessor.Deobfuscator.Attribute.Данные" id="cf7bf79b-3250-48a8-9ec9-95f1efc032ec"/>
 		</Metadata>
 		<Metadata name="DataProcessor.Deobfuscator.Command.Deobfuscator.CommandModule" id="9c02b906-e8c8-440e-ba3a-7e26f1210729.2" configVersion="488c4ea009fa2f49b21c0e7111e902ee00000000"/>
-		<Metadata name="DataProcessor.Deobfuscator.Form.Форма" id="d17652b0-31fe-4c1d-82bd-e8a499ad44de" configVersion="03042eb3f1046442bb1619f0a369b91900000000"/>
-		<Metadata name="DataProcessor.Deobfuscator.Form.Форма.Form" id="d17652b0-31fe-4c1d-82bd-e8a499ad44de.0" configVersion="fcfb6c22ac2f8645a93bcdbf8629f9e700000000"/>
+		<Metadata name="DataProcessor.Deobfuscator.Form.Форма" id="d17652b0-31fe-4c1d-82bd-e8a499ad44de" configVersion="8601d1f346f1b94a82b5816682c9a1f800000000"/>
+		<Metadata name="DataProcessor.Deobfuscator.Form.Форма.Form" id="d17652b0-31fe-4c1d-82bd-e8a499ad44de.0" configVersion="920b989c4a8a7940ab77ce7ca3efaf7000000000"/>
 		<Metadata name="DataProcessor.Reading" id="09e86135-ba12-4b49-863b-ef7cef5f57ea" configVersion="b029a0f8f28fd843ba48cb243eda3d4b00000000">
 			<Metadata name="DataProcessor.Reading.Attribute.Приоритет" id="50347232-da81-4f67-b749-bfddee556cf3"/>
 			<Metadata name="DataProcessor.Reading.Attribute.CurrentPoin" id="7f6dddd7-7984-48c4-983b-d5d40a493d7b"/>
@@ -89,8 +89,8 @@
 			<Metadata name="DataProcessor.Reading.Command.Reading" id="f6eb42e0-c47e-40e0-8a97-6bab8ce8e860"/>
 		</Metadata>
 		<Metadata name="DataProcessor.Reading.Command.Reading.CommandModule" id="f6eb42e0-c47e-40e0-8a97-6bab8ce8e860.2" configVersion="91cb8c220ee49041a0f08b93f7b97fff00000000"/>
-		<Metadata name="DataProcessor.Reading.Form.Форма" id="0074bf87-dd06-4930-bbc5-56b43f7812f0" configVersion="abd429446c6654409983ba6d247e547900000000"/>
-		<Metadata name="DataProcessor.Reading.Form.Форма.Form" id="0074bf87-dd06-4930-bbc5-56b43f7812f0.0" configVersion="45f1a13107d421488c73cece6862bf1b00000000"/>
+		<Metadata name="DataProcessor.Reading.Form.Форма" id="0074bf87-dd06-4930-bbc5-56b43f7812f0" configVersion="ee755fc6ed4e4e40988c5353eab07d0c00000000"/>
+		<Metadata name="DataProcessor.Reading.Form.Форма.Form" id="0074bf87-dd06-4930-bbc5-56b43f7812f0.0" configVersion="4692a5e4bb5bd1438436adc259d9627700000000"/>
 		<Metadata name="DataProcessor.StackMachine" id="8536c2a0-32fd-4443-974b-cc567324383b" configVersion="c200bdb1bbf2344981ef966aba84550500000000">
 			<Metadata name="DataProcessor.StackMachine.Attribute.CodeText" id="081ae355-73cf-4f9c-b2d6-9dceb27c46fb"/>
 			<Metadata name="DataProcessor.StackMachine.TabularSection.Function.Attribute.Наименование" id="25e9ac61-f4a0-4e63-a087-e1168e8991b4"/>

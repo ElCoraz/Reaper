@@ -76,8 +76,8 @@
 			<Metadata name="DataProcessor.Deobfuscator.Attribute.Данные" id="cf7bf79b-3250-48a8-9ec9-95f1efc032ec"/>
 		</Metadata>
 		<Metadata name="DataProcessor.Deobfuscator.Command.Deobfuscator.CommandModule" id="9c02b906-e8c8-440e-ba3a-7e26f1210729.2" configVersion="055c8ff4b06b19409f6667f4a040adee00000000"/>
-		<Metadata name="DataProcessor.Deobfuscator.Form.Форма" id="d17652b0-31fe-4c1d-82bd-e8a499ad44de" configVersion="ec752cd0e25f0448834478ab44cc98d200000000"/>
-		<Metadata name="DataProcessor.Deobfuscator.Form.Форма.Form" id="d17652b0-31fe-4c1d-82bd-e8a499ad44de.0" configVersion="2c47b70204f6a14f920d89df1c38534000000000"/>
+		<Metadata name="DataProcessor.Deobfuscator.Form.Форма" id="d17652b0-31fe-4c1d-82bd-e8a499ad44de" configVersion="883b8b52ab1a764ca18a22cb8ee3289400000000"/>
+		<Metadata name="DataProcessor.Deobfuscator.Form.Форма.Form" id="d17652b0-31fe-4c1d-82bd-e8a499ad44de.0" configVersion="2db6409b1df78044a9c9c06bcea9944a00000000"/>
 		<Metadata name="DataProcessor.Reading" id="09e86135-ba12-4b49-863b-ef7cef5f57ea" configVersion="43777abcb4fa594d8515b962662573cd00000000">
 			<Metadata name="DataProcessor.Reading.Attribute.Приоритет" id="50347232-da81-4f67-b749-bfddee556cf3"/>
 			<Metadata name="DataProcessor.Reading.Attribute.CurrentPoin" id="7f6dddd7-7984-48c4-983b-d5d40a493d7b"/>

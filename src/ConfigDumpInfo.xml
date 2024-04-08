@@ -33,8 +33,8 @@
 		<Metadata name="Catalog.Проекты.ObjectModule" id="308c9e8c-b1f3-4e15-a9a0-53d02c9f99b0.0" configVersion="55e0d31fc42f31488f57850f71111a7d00000000"/>
 		<Metadata name="CommonCommand.ОпКоды" id="c4e586ca-9b08-4b0a-9254-358581295cf6" configVersion="28ae53d7b98d5d419de9698ff350bc0900000000"/>
 		<Metadata name="CommonCommand.ОпКоды.CommandModule" id="c4e586ca-9b08-4b0a-9254-358581295cf6.2" configVersion="0d06d5a20f5c2842bed8be16efaa0e1a00000000"/>
-		<Metadata name="CommonForm.ПросмотраКода" id="293e32d0-9936-4a5c-91d6-ade120539350" configVersion="83227435c27f0444bbe6c76fc6b0237600000000"/>
-		<Metadata name="CommonForm.ПросмотраКода.Form" id="293e32d0-9936-4a5c-91d6-ade120539350.0" configVersion="d4d1dbf55191194e847bcf895bdf304400000000"/>
+		<Metadata name="CommonForm.ПросмотраКода" id="293e32d0-9936-4a5c-91d6-ade120539350" configVersion="b16fc7b1ffa4c245a7f3fe014dad234400000000"/>
+		<Metadata name="CommonForm.ПросмотраКода.Form" id="293e32d0-9936-4a5c-91d6-ade120539350.0" configVersion="c96b936d8263f346a231e434404d61ed00000000"/>
 		<Metadata name="CommonModule.Decompile" id="0ba28ade-a041-4a0f-a8f2-e3e8efe32c98" configVersion="f098ad5a04e0c64486be87c892ec0fa900000000"/>
 		<Metadata name="CommonModule.Decompile.Module" id="0ba28ade-a041-4a0f-a8f2-e3e8efe32c98.0" configVersion="f3c7d109b8bde746823bf09292a7677900000000"/>
 		<Metadata name="CommonModule.Парсинг" id="5c7fcea3-4268-497b-bbf8-258c78b887dc" configVersion="92ec68e052a98a45a4bea020429c9c2900000000"/>
@@ -45,13 +45,29 @@
 		<Metadata name="CommonPicture.Decompiler.Picture" id="fba35b04-4288-4fe0-bb86-a6a1845608d7.0" configVersion="393d6ff8a58cb24d8aef0ea57cd3b4a600000000"/>
 		<Metadata name="CommonPicture.Logo" id="2d0ea086-6be8-4b04-bd25-0f4253e7f9be" configVersion="94303b23c65c504387b069b1c28ec08200000000"/>
 		<Metadata name="CommonPicture.Logo.Picture" id="2d0ea086-6be8-4b04-bd25-0f4253e7f9be.0" configVersion="652064f57402b64e87db780108aa3bb200000000"/>
-		<Metadata name="CommonTemplate.HTML" id="be2f90a8-403f-40dd-a8a5-667d0ad24e78" configVersion="12abbc60e428b746aa1c349d5a3df43500000000"/>
-		<Metadata name="CommonTemplate.HTML.Template" id="be2f90a8-403f-40dd-a8a5-667d0ad24e78.0" configVersion="fd73b69c1d3d2b438e4b9b7704f6882300000000"/>
+		<Metadata name="CommonTemplate.HTML" id="be2f90a8-403f-40dd-a8a5-667d0ad24e78" configVersion="bdb42e077bd1884ea2d0ea568d206a1b00000000"/>
+		<Metadata name="CommonTemplate.HTML.Template" id="be2f90a8-403f-40dd-a8a5-667d0ad24e78.0" configVersion="f3686b4e9bd3d9439966ee2b1fe2925a00000000"/>
+		<Metadata name="CommonTemplate.codemirror_css" id="69aac878-486a-4b63-82b7-f28bec5572b0" configVersion="529560c1ec5c034dac975d93e89cadb800000000"/>
+		<Metadata name="CommonTemplate.codemirror_css.Template" id="69aac878-486a-4b63-82b7-f28bec5572b0.0" configVersion="bfdc350689ae354dbba910f2a4914d6b00000000"/>
+		<Metadata name="CommonTemplate.codemirror_js" id="14793a0a-f90b-4fed-a76c-d10da187dd2c" configVersion="82d772cb31023a4d9ee3486bac5ab1c800000000"/>
+		<Metadata name="CommonTemplate.codemirror_js.Template" id="14793a0a-f90b-4fed-a76c-d10da187dd2c.0" configVersion="12d00d74f0a2c04a96ae03c44651fe2700000000"/>
+		<Metadata name="CommonTemplate.foldcode_js" id="575186bd-048c-43a6-ab26-8f4e035b32cd" configVersion="d5c81e0e1a5e52419f7d0374b25d034200000000"/>
+		<Metadata name="CommonTemplate.foldcode_js.Template" id="575186bd-048c-43a6-ab26-8f4e035b32cd.0" configVersion="d95f01baeb0ade41b10a6cec1d642cd300000000"/>
+		<Metadata name="CommonTemplate.foldgutter_css" id="87d52a07-e36b-4449-950e-026ceec0c7bd" configVersion="ce5e49bbf7a0c5438482fc33f1e7fc0900000000"/>
+		<Metadata name="CommonTemplate.foldgutter_css.Template" id="87d52a07-e36b-4449-950e-026ceec0c7bd.0" configVersion="80d2c1637457e049beee36fadac86f3e00000000"/>
+		<Metadata name="CommonTemplate.foldgutter_js" id="f47fb591-a1e0-49e1-ba5f-5883be9da1c3" configVersion="e057055ee02874478f6d2eb48bdc94c100000000"/>
+		<Metadata name="CommonTemplate.foldgutter_js.Template" id="f47fb591-a1e0-49e1-ba5f-5883be9da1c3.0" configVersion="75af521562e003489283e3ed7947896000000000"/>
+		<Metadata name="CommonTemplate.onec_css" id="0e73ef1d-d6db-486b-8c66-924230fc4d18" configVersion="8f1f358ec817fe41b619147933b06baf00000000"/>
+		<Metadata name="CommonTemplate.onec_css.Template" id="0e73ef1d-d6db-486b-8c66-924230fc4d18.0" configVersion="aee5896debfe5d4c9b3a2589c747a17a00000000"/>
+		<Metadata name="CommonTemplate.onec_js" id="5441b873-5236-4431-94f8-9b91251944d3" configVersion="732d2baa95a0a64c870136bab1c4f87200000000"/>
+		<Metadata name="CommonTemplate.onec_js.Template" id="5441b873-5236-4431-94f8-9b91251944d3.0" configVersion="2833204d9e0713479ff683f95b4d9d5500000000"/>
+		<Metadata name="CommonTemplate.onecfold_js" id="4588309d-3c18-4964-b599-38bc7fae7ca6" configVersion="cee0be85fb5cf54d88bada84428f684d00000000"/>
+		<Metadata name="CommonTemplate.onecfold_js.Template" id="4588309d-3c18-4964-b599-38bc7fae7ca6.0" configVersion="548ce5746e964b43bdc7511f993926c400000000"/>
 		<Metadata name="CommonTemplate.v8unpack_win_x64" id="6be0b02e-4bfb-410d-94fa-5ffed2ed8794" configVersion="d3371543f5875c47821aff64b8f0cc2a00000000"/>
 		<Metadata name="CommonTemplate.v8unpack_win_x64.Template" id="6be0b02e-4bfb-410d-94fa-5ffed2ed8794.0" configVersion="ddf8ee1ba4be2a458c40eea03d70ff9300000000"/>
 		<Metadata name="CommonTemplate.ОпКоды" id="5fa2c5b0-a96b-4303-a90e-8bfff2af1355" configVersion="7872b2088a3e274da206e5f38f4e771700000000"/>
 		<Metadata name="CommonTemplate.ОпКоды.Template" id="5fa2c5b0-a96b-4303-a90e-8bfff2af1355.0" configVersion="e528dbd9991e4247b55621c86e7fd5bc00000000"/>
-		<Metadata name="Configuration.Reaper" id="5cec394c-a86c-49b3-abd9-25e84bc85757" configVersion="9693a20a28d91143a70b6c5a4018547c00000000"/>
+		<Metadata name="Configuration.Reaper" id="5cec394c-a86c-49b3-abd9-25e84bc85757" configVersion="208f1f1be0b9fd45a05c7bcdd91570ae00000000"/>
 		<Metadata name="Configuration.Reaper.Logo" id="bd63fb7d-41fd-42cc-812a-2804afc5111a.1" configVersion="19d0bc82802de44aa71d84673b5eade900000000"/>
 		<Metadata name="Configuration.Reaper.MainSectionCommandInterface" id="bd63fb7d-41fd-42cc-812a-2804afc5111a.9" configVersion="887748af512aca4e9dca64c04f3312d300000000"/>
 		<Metadata name="Configuration.Reaper.ManagedApplicationModule" id="bd63fb7d-41fd-42cc-812a-2804afc5111a.6" configVersion="5832c499d3c7294688b3ce8cd3188b4f00000000"/>

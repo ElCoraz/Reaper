@@ -1,14 +1,26 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><html><head><meta charset="UTF-8"></meta><title>HTML Document</title><style>
-			body {
-				font-family: "Courier New";
-				color: blue;
-			}
-			.red {
-				color: red;
-			}
-			.black {
-				color: black;
-			}
-		</style></head><body>
-	    %TEXT%
-	</body></html>
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><html><head><meta http-equiv="Content-Type" content="text/html;charset=utf-8"></meta><meta http-equiv="X-UA-Compatible" content="IE=10"></meta><style type="text/css">%codemirror_css%</style><style type="text/css">%foldgutter_css%</style><script type="text/javascript">%codemirror_js%</script><script type="text/javascript">%onecfold_js%</script><script type="text/javascript">%foldcode_js%</script><script type="text/javascript">%foldgutter_js%</script><script type="text/javascript">%onec_js%</script><style type="text/css">%onec_css%</style></head><body>
+  <textarea id="code" name="code" style="width:100%;height:100%;"></textarea><script type="text/javascript">
+    var editor = CodeMirror.fromTextArea(document.getElementById('code'), {
+      lineNumbers: true,
+      indentWithTabs: true,
+      styleActiveLine: true,
+      lineWrapping: true,
+      smartIndent: true,
+      electricChars:false,
+      autofocus: true,
+      indentUnit: 4,
+      readOnly: false,
+      highlightSelectionMatches: {showToken: /[0-9a-zA-Zа-яёА-ЯЁ&]/, annotateScrollbar: false},
+      mode: "text/x-1c",
+      theme: '1c',
+		  foldGutter: true,
+		  gutters: ['CodeMirror-linenumbers', 'CodeMirror-foldgutter']
+    });
+    editor.setValue('%TEXT%');
+    editor.foldCode(0);
+    for (var i =0; i < editor.lineCount(); i++) 
+    { 
+    	editor.indentLine(i); 
+    }
+    editor.setSize("100%","100%");
+  </script></body></html>

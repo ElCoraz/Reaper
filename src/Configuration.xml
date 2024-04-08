@@ -253,6 +253,14 @@
 			<CommonTemplate>HTML</CommonTemplate>
 			<CommonTemplate>v8unpack_win_x64</CommonTemplate>
 			<CommonTemplate>ОпКоды</CommonTemplate>
+			<CommonTemplate>codemirror_css</CommonTemplate>
+			<CommonTemplate>foldgutter_css</CommonTemplate>
+			<CommonTemplate>codemirror_js</CommonTemplate>
+			<CommonTemplate>onecfold_js</CommonTemplate>
+			<CommonTemplate>foldcode_js</CommonTemplate>
+			<CommonTemplate>foldgutter_js</CommonTemplate>
+			<CommonTemplate>onec_js</CommonTemplate>
+			<CommonTemplate>onec_css</CommonTemplate>
 			<CommonModule>Decompile</CommonModule>
 			<CommonModule>Парсинг</CommonModule>
 			<CommonModule>СтроковыеФункции</CommonModule>

@@ -35,8 +35,8 @@
 		<Metadata name="CommonCommand.ОпКоды.CommandModule" id="c4e586ca-9b08-4b0a-9254-358581295cf6.2" configVersion="781389f0dab5184c8094d176760cfa5300000000"/>
 		<Metadata name="CommonForm.ПросмотраКода" id="293e32d0-9936-4a5c-91d6-ade120539350" configVersion="d6af623299d26c4fae55a3afbf791d8600000000"/>
 		<Metadata name="CommonForm.ПросмотраКода.Form" id="293e32d0-9936-4a5c-91d6-ade120539350.0" configVersion="53b10cc4f60462449ae74ac8531b754800000000"/>
-		<Metadata name="CommonModule.Decompile" id="0ba28ade-a041-4a0f-a8f2-e3e8efe32c98" configVersion="384f744320b6d24fbf3936ff7e393fc700000000"/>
-		<Metadata name="CommonModule.Decompile.Module" id="0ba28ade-a041-4a0f-a8f2-e3e8efe32c98.0" configVersion="758f27882b119a48933e948208cc0eed00000000"/>
+		<Metadata name="CommonModule.Decompile" id="0ba28ade-a041-4a0f-a8f2-e3e8efe32c98" configVersion="01a058d0fb85d74993c22ce0996b3bfa00000000"/>
+		<Metadata name="CommonModule.Decompile.Module" id="0ba28ade-a041-4a0f-a8f2-e3e8efe32c98.0" configVersion="41c3c337e5ea9c4faf9101cbd29d39ba00000000"/>
 		<Metadata name="CommonModule.Парсинг" id="5c7fcea3-4268-497b-bbf8-258c78b887dc" configVersion="0ca1d707f3e5804f8bc4f17121dca2fb00000000"/>
 		<Metadata name="CommonModule.Парсинг.Module" id="5c7fcea3-4268-497b-bbf8-258c78b887dc.0" configVersion="6f31c84d7ab94b40abd896dd258e1c7f00000000"/>
 		<Metadata name="CommonModule.СтроковыеФункции" id="17c1e2eb-a53b-4840-b2d8-2eee4db2e51d" configVersion="2234b9c21bd04d41b188f21c0fe5686100000000"/>
